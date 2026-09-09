@@ -555,7 +555,7 @@ namespace PresentationDVLD_ConsoleApp
 
         static void GetAllTestAppointmentByPersonID()
         {
-            DataTable dtTestApp = clsTestAppointment.GetAllTestAppointmentsByPersonID(1);
+            DataTable dtTestApp = clsTestAppointment.GetAllTestAppointmentsByPersonID(1,1);
 
             foreach (DataRow dr in dtTestApp.Rows)
             {
